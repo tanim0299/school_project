@@ -1,0 +1,1 @@
+[17-Jul-2022 10:58:14 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/aphsedu/public_html/storage/framework/views/0de49f3aa71130a47da91917311a75819ca8901d.php on line 19
