@@ -18,7 +18,7 @@ $settings = DB::table('settings')->first();
   <li class="list-group-item" id="featureheads">সভাপতির বাণী</li>
 </ul>
 <li class="list-group-item p-0 pt-2" id="padd">
-  <a href="{{ url('message-from-head') }}"><center><img src="{{ url($president->image) }}" class="img-fluid" style="max-height: 200px;padding-bottom:5px;"></center></a>
+  <a href="{{ url('President_Message') }}"><center><img src="{{ url($president->image) }}" class="img-fluid" style="max-height: 200px;padding-bottom:5px;"></center></a>
   <center><span class="head">{{ $president->name }}<br><a href="{{ url('President_Message') }}" class="btn btn-success btn-sm btn-block">বিস্তারিত</a></span></center>
 </li>
 </div>
